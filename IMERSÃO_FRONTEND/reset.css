@@ -1,0 +1,50 @@
+/* Reset CSS */
+
+/* Remove espaçamentos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove estilos de listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove estilos padrão de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove estilos de botões */
+button, input, textarea {
+    font: inherit;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+/* Padroniza fontes */
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+
+/* Remove estilos padrão de elementos de formulário */
+input, button, textarea, select {
+    appearance: none;
+}
+
+/* Garante que elementos de mídia não ultrapassem seus containers */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Define um comportamento padrão para elementos ocultos */
+[hidden] {
+    display: none;
+}
